@@ -1,0 +1,9 @@
+
+# Environments
+backend/.env
+
+# Database
+backend/db.sqlite3
+
+# IDE
+.vscode/

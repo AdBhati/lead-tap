@@ -1,0 +1,44 @@
+name: stall_capture
+description: Event Lead Capture App — capture leads and send WhatsApp messages instantly.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  provider: ^6.1.2
+
+  # Google Sign-In
+  google_sign_in: ^6.2.1
+
+  # HTTP client
+  http: ^1.2.1
+
+  # WhatsApp & external URL opening
+  url_launcher: ^6.3.0
+
+  # Secure token storage (never SharedPreferences for tokens)
+  flutter_secure_storage: ^9.2.2
+
+  # Shared preferences for non-sensitive flags (first-login flag)
+  shared_preferences: ^2.2.3
+
+  # UUID generation (for offline-first UUIDs if needed)
+  uuid: ^4.4.2
+
+  # Intl for date formatting
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  # No custom fonts — keeping app size minimal
