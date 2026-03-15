@@ -1,0 +1,19 @@
+[Unit]
+Description=Gunicorn daemon for Stall Capture Django application
+After=network.target
+
+[Service]
+User=ubuntu
+Group=www-data
+WorkingDirectory=/home/ubuntu/stall-capture/backend
+Environment="PATH=/home/ubuntu/stall-capture/backend/venv/bin"
+Environment="DJANGO_SETTINGS_MODULE=stall_capture.settings_production"
+ExecStart=/home/ubuntu/stall-capture/backend/venv/bin/gunicorn \
+    --config /home/ubuntu/stall-capture/backend/gunicorn_config.py \
+    stall_capture.wsgi:application
+
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

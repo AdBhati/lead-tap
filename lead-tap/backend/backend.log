@@ -1,0 +1,23 @@
+Watching for file changes with StatReloader
+[13/Mar/2026 13:41:36] "OPTIONS /api/auth/google/ HTTP/1.1" 200 0
+[13/Mar/2026 13:41:37] "POST /api/auth/google/ HTTP/1.1" 200 796
+[13/Mar/2026 13:52:46] "OPTIONS /api/auth/google/ HTTP/1.1" 200 0
+[13/Mar/2026 13:52:47] "POST /api/auth/google/ HTTP/1.1" 200 841
+[13/Mar/2026 13:53:18] "OPTIONS /api/auth/whatsapp/ HTTP/1.1" 200 0
+[13/Mar/2026 13:53:18] "POST /api/auth/whatsapp/ HTTP/1.1" 200 245
+[13/Mar/2026 13:53:18] "OPTIONS /api/events/?page=1 HTTP/1.1" 200 0
+[13/Mar/2026 13:53:18] "GET /api/events/?page=1 HTTP/1.1" 200 52
+[13/Mar/2026 13:53:46] "POST /api/auth/whatsapp/ HTTP/1.1" 200 245
+[13/Mar/2026 13:53:46] "GET /api/events/?page=1 HTTP/1.1" 200 52
+[13/Mar/2026 13:54:14] "POST /api/auth/whatsapp/ HTTP/1.1" 200 245
+[13/Mar/2026 13:54:14] "GET /api/events/?page=1 HTTP/1.1" 200 52
+[13/Mar/2026 14:13:43] "OPTIONS /api/auth/google/ HTTP/1.1" 200 0
+[13/Mar/2026 14:13:45] "POST /api/auth/google/ HTTP/1.1" 200 855
+[13/Mar/2026 14:13:45] "OPTIONS /api/events/?page=1 HTTP/1.1" 200 0
+[13/Mar/2026 14:13:45] "GET /api/events/?page=1 HTTP/1.1" 200 52
+[13/Mar/2026 14:15:41] "OPTIONS /api/events/ HTTP/1.1" 200 0
+[13/Mar/2026 14:15:41] "POST /api/events/ HTTP/1.1" 201 252
+[13/Mar/2026 14:16:06] "OPTIONS /api/events/5d81b941-dc72-4af7-9a16-4382342b5d64/leads/ HTTP/1.1" 200 0
+[13/Mar/2026 14:16:06] "POST /api/events/5d81b941-dc72-4af7-9a16-4382342b5d64/leads/ HTTP/1.1" 201 163
+[13/Mar/2026 14:18:38] "OPTIONS /api/events/5d81b941-dc72-4af7-9a16-4382342b5d64/leads/?page=1 HTTP/1.1" 200 0
+[13/Mar/2026 14:18:38] "GET /api/events/5d81b941-dc72-4af7-9a16-4382342b5d64/leads/?page=1 HTTP/1.1" 200 215
